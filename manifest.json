@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "NetSuite Deployed Scripts Extension",
+  "description": "Chrome Extension to open up a page with deployed scripts on current open record type",
+  "version": "2",
+  "content_scripts": [
+    {
+      "matches": ["*://*.app.netsuite.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "96": "1.png"
+  },
+  "action": {
+  },
+  "permissions" : [
+    "activeTab"
+  ]
+}

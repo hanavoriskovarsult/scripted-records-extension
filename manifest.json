@@ -15,6 +15,5 @@
   "action": {
   },
   "permissions" : [
-    "activeTab"
   ]
 }
